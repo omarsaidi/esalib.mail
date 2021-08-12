@@ -28,6 +28,8 @@ steps:
     packagesToPack: 'EsaLib.Mail/EsaLib.Mail.csproj'
     nobuild: true
     versioningScheme: 'off'
+  
+
 - task: NuGetCommand@2
   inputs:
     command: 'push'
